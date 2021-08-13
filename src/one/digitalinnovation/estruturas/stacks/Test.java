@@ -1,4 +1,4 @@
-package one.digitalinnovation.estruturas.pilhas;
+package one.digitalinnovation.estruturas.stacks;
 
 public class Test {
     public static void main(String[] args) {

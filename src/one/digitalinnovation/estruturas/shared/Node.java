@@ -9,6 +9,11 @@ public class Node<T> {
         this.object = object;
     }
 
+    public Node(T object, Node next) {
+        this.object = object;
+        this.next = next;
+    }
+
     public T getObject() {
         return object;
     }

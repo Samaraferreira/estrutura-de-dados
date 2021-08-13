@@ -1,4 +1,4 @@
-package one.digitalinnovation.estruturas.pilhas;
+package one.digitalinnovation.estruturas.stacks;
 
 import one.digitalinnovation.estruturas.shared.Node;
 

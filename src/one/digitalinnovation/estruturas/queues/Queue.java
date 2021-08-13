@@ -1,4 +1,4 @@
-package one.digitalinnovation.estruturas.filas;
+package one.digitalinnovation.estruturas.queues;
 
 import one.digitalinnovation.estruturas.shared.Node;
 

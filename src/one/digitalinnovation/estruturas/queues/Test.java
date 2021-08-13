@@ -1,4 +1,4 @@
-package one.digitalinnovation.estruturas.filas;
+package one.digitalinnovation.estruturas.queues;
 
 public class Test {
     public static void main(String[] args) {
