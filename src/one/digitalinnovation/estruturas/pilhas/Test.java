@@ -1,8 +1,6 @@
 package one.digitalinnovation.estruturas.pilhas;
 
-import one.digitalinnovation.estruturas.shared.Node;
-
-public class Main {
+public class Test {
     public static void main(String[] args) {
         Stack<String> stack = new Stack();
 

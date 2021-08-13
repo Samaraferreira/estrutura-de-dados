@@ -2,15 +2,15 @@ package one.digitalinnovation.estruturas.shared;
 
 public class Node<T> {
 
-    private T data;
+    private T object;
     private Node next = null;
 
-    public Node(T data) {
-        this.data = data;
+    public Node(T object) {
+        this.object = object;
     }
 
-    public T getData() {
-        return data;
+    public T getObject() {
+        return object;
     }
 
     public Node getNext() {
@@ -24,7 +24,7 @@ public class Node<T> {
     @Override
     public String toString() {
         return "Node{" +
-                "data=" + data +
+                "object=" + object +
                 '}';
     }
 }

@@ -25,7 +25,7 @@ public class Stack<T> {
      * */
     public T pop() {
         if (!this.isEmpty()) {
-            T retValue = this.top.getData();
+            T retValue = this.top.getObject();
             top = this.top.getNext();
             return retValue;
         }
@@ -43,7 +43,7 @@ public class Stack<T> {
      * Looks at the object at the top of this stack without removing it from the stack.
      * */
     public T peek() {
-        return this.top.getData();
+        return this.top.getObject();
     }
 
     @Override
@@ -54,7 +54,7 @@ public class Stack<T> {
 
         while (true) {
             if(auxiliar != null) {
-                retorno += "[Node{data=" + auxiliar.getData() + "}]\n";
+                retorno += "[Node{object=" + auxiliar.getObject() + "}]\n";
                 auxiliar = auxiliar.getNext();
             } else {
                 break;
