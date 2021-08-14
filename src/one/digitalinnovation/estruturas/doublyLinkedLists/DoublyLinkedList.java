@@ -1,7 +1,6 @@
 package one.digitalinnovation.estruturas.doublyLinkedLists;
 
 import one.digitalinnovation.estruturas.shared.DoublyNode;
-import one.digitalinnovation.estruturas.shared.Node;
 
 public class DoublyLinkedList<T> {
 
